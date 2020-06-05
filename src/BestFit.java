@@ -2,6 +2,10 @@ import java.util.ArrayList;
 
 public class BestFit implements Fit {
     @Override
+    public String toString() {
+        return "BestFit";
+    }
+    @Override
     public void fit(ArrayList<Bin> arrayList, Item item) {
         Bin bestBin = null;
         int maxCapacity = Integer.MAX_VALUE;
