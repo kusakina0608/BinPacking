@@ -4,7 +4,11 @@ n 개의 물건이 주어지고, 통의 용량이 C일 때, 주어진 모든 물
 
 그리디 알고리즘을 사용하여 통 채우기 문제를 해결한다면 다음과 같이 4가지 방법이 있을 수 있다.
 
+<br>
 
+---
+
+<br>
 
 > ### 최초 적합(Fitst Fit)
 
@@ -39,6 +43,12 @@ public class FirstFit implements Fit{
 
 <img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/FirstFit.png" alt="FirstFit" style="zoom:50%;" />
 
+<br>
+
+---
+
+<br>
+
 > ### 다음 적합(Next Fit)
 
 직전에 물건을 넣은 통에 여유가 있으면 그 통에 물건을 넣고, 여유가 없을 경우에는 새로운 통에 물건을 넣는다.
@@ -66,6 +76,12 @@ public class NextFit implements Fit {
 실행 결과는 다음과 같다.
 
 <img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/NextFit.png" alt="NextFit" style="zoom:50%;" />
+
+<br>
+
+---
+
+<br>
 
 > ### 최선 적합(Best Fit)
 
@@ -101,6 +117,12 @@ public class BestFit implements Fit {
 실행 결과는 다음과 같다.
 
 <img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/BestFit.png" alt="BestFit" style="zoom:50%;" />
+
+<br>
+
+---
+
+<br>
 
 > ### 최악 적합(Worst Fit)
 
