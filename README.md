@@ -37,9 +37,7 @@ public class FirstFit implements Fit{
 
 실행 결과는 다음과 같다.
 
-
-
-![FirstFit](https://github.com/kusakina0608/BinPacking/blob/master/img/FirstFit.png?raw=true)
+<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/FirstFit.png" alt="FirstFit" style="zoom:50%;" />
 
 > ### 다음 적합(Next Fit)
 
@@ -65,9 +63,9 @@ public class NextFit implements Fit {
 }
 ```
 
+실행 결과는 다음과 같다.
 
-
-![NextFit](https://github.com/kusakina0608/BinPacking/blob/master/img/NextFit.png?raw=true)
+<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/NextFit.png" alt="NextFit" style="zoom:50%;" />
 
 > ### 최선 적합(Best Fit)
 
@@ -100,9 +98,9 @@ public class BestFit implements Fit {
 }
 ```
 
+실행 결과는 다음과 같다.
 
-
-![BestFit](https://github.com/kusakina0608/BinPacking/blob/master/img/BestFit.png?raw=true)
+<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/BestFit.png" alt="BestFit" style="zoom:50%;" />
 
 > ### 최악 적합(Worst Fit)
 
@@ -135,6 +133,6 @@ public class WorstFit implements Fit {
 }
 ```
 
+실행 결과는 다음과 같다.
 
-
-![WorstFit](https://github.com/kusakina0608/BinPacking/blob/master/img/WorstFit.png?raw=true)
+<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/WorstFit.png" alt="WorstFit" style="zoom:50%;" />
