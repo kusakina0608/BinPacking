@@ -16,8 +16,6 @@ n 개의 물건이 주어지고, 통의 용량이 C일 때, 주어진 모든 물
 
 그대로 구현하면 된다.
 
-[_FitstFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/FirstFit.java)
-
 ```java
 public class FirstFit implements Fit{
     @Override
@@ -41,7 +39,7 @@ public class FirstFit implements Fit{
 
 실행 결과는 다음과 같다.
 
-<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/FirstFit.png" alt="FirstFit" style="zoom:50%;" />
+[_FitstFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/FirstFit.java){: width="860" height="424"}
 
 <br>
 
@@ -52,8 +50,6 @@ public class FirstFit implements Fit{
 > ### 다음 적합(Next Fit)
 
 직전에 물건을 넣은 통에 여유가 있으면 그 통에 물건을 넣고, 여유가 없을 경우에는 새로운 통에 물건을 넣는다.
-
-[_NextFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/NextFit.java)
 
 ```java
 public class NextFit implements Fit {
@@ -75,7 +71,7 @@ public class NextFit implements Fit {
 
 실행 결과는 다음과 같다.
 
-<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/NextFit.png" alt="NextFit" style="zoom:50%;" />
+[_NextFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/NextFit.java){: width="860" height="424"}
 
 <br>
 
@@ -86,8 +82,6 @@ public class NextFit implements Fit {
 > ### 최선 적합(Best Fit)
 
 기존의 통 중에서 새 물건이 들어가면 **남는 부분이 가장 적은** 통에 새 물건을 넣는다.
-
-[_BestFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/BestFit.java)
 
 ```java
 public class BestFit implements Fit {
@@ -116,7 +110,7 @@ public class BestFit implements Fit {
 
 실행 결과는 다음과 같다.
 
-<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/BestFit.png" alt="BestFit" style="zoom:50%;" />
+[_BestFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/BestFit.java){: width="860" height="424"}
 
 <br>
 
@@ -127,8 +121,6 @@ public class BestFit implements Fit {
 > ### 최악 적합(Worst Fit)
 
 기존의 통 중에서 새 물건이 들어가면 **남는 부분이 가장 큰** 통에 새 물건을 넣는다.
-
-[_WorstFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/WorstFit.java)
 
 ```java
 public class WorstFit implements Fit {
@@ -157,4 +149,4 @@ public class WorstFit implements Fit {
 
 실행 결과는 다음과 같다.
 
-<img src="https://raw.githubusercontent.com/kusakina0608/BinPacking/master/img/WorstFit.png" alt="WorstFit" style="zoom:50%;" />
+[_WorstFit.java_](https://github.com/kusakina0608/BinPacking/blob/master/src/WorstFit.java){: width="860" height="424"}
